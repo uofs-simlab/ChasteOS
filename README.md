@@ -26,13 +26,6 @@ Navigate to ../projects/NameOfAProblem/test/
 
 Run the executable file
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 For example, if you want to run a 3D Bidomain model using Ten-Tusscher cell model and the AKS operator splitting do:
 
