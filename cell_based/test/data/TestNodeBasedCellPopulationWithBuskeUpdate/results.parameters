@@ -1,0 +1,6 @@
+		<MechanicsCutOffLength>1.2</MechanicsCutOffLength>
+		<UseVariableRadii>0</UseVariableRadii>
+		<MeinekeDivisionSeparation>0.3</MeinekeDivisionSeparation>
+		<DampingConstantNormal>1</DampingConstantNormal>
+		<DampingConstantMutant>1</DampingConstantMutant>
+		<OutputResultsForChasteVisualizer>1</OutputResultsForChasteVisualizer>

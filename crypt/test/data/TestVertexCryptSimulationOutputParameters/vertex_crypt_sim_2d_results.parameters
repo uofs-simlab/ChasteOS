@@ -1,0 +1,7 @@
+		<CryptCircumference>4</CryptCircumference>
+		<UseJiggledBottomCells>0</UseJiggledBottomCells>
+		<Dt>0.002</Dt>
+		<EndTime>1.5</EndTime>
+		<SamplingTimestepMultiple>1</SamplingTimestepMultiple>
+		<OutputDivisionLocations>0</OutputDivisionLocations>
+		<OutputCellVelocities>0</OutputCellVelocities>

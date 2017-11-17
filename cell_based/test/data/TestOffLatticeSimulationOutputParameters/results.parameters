@@ -1,0 +1,59 @@
+<Chaste>
+
+	<OffLatticeSimulation-2-2>
+		<Dt>0.00833333</Dt>
+		<EndTime>0.5</EndTime>
+		<SamplingTimestepMultiple>1</SamplingTimestepMultiple>
+		<OutputDivisionLocations>0</OutputDivisionLocations>
+		<OutputCellVelocities>0</OutputCellVelocities>
+	</OffLatticeSimulation-2-2>
+
+	<MeshBasedCellPopulation-2-2>
+		<UseAreaBasedDampingConstant>0</UseAreaBasedDampingConstant>
+		<AreaBasedDampingConstantParameter>0.1</AreaBasedDampingConstantParameter>
+		<WriteVtkAsPoints>0</WriteVtkAsPoints>
+		<OutputMeshInVtk>0</OutputMeshInVtk>
+		<HasVariableRestLength>0</HasVariableRestLength>
+		<MeinekeDivisionSeparation>0.3</MeinekeDivisionSeparation>
+		<DampingConstantNormal>1</DampingConstantNormal>
+		<DampingConstantMutant>1</DampingConstantMutant>
+		<OutputResultsForChasteVisualizer>1</OutputResultsForChasteVisualizer>
+	</MeshBasedCellPopulation-2-2>
+
+	<CellCycleModels>
+		<FixedDurationGenerationBasedCellCycleModel>
+			<MaxTransitGenerations>3</MaxTransitGenerations>
+			<StemCellG1Duration>14</StemCellG1Duration>
+			<TransitCellG1Duration>2</TransitCellG1Duration>
+			<SDuration>5</SDuration>
+			<G2Duration>4</G2Duration>
+			<MDuration>1</MDuration>
+		</FixedDurationGenerationBasedCellCycleModel>
+	</CellCycleModels>
+
+	<SrnModels>
+		<NullSrnModel>
+		</NullSrnModel>
+	</SrnModels>
+
+	<CellKillers>
+	</CellKillers>
+
+	<SimulationModifiers>
+	</SimulationModifiers>
+
+	<Forces>
+	</Forces>
+
+	<CellPopulationBoundaryConditions>
+	</CellPopulationBoundaryConditions>
+
+	<NumericalMethod>
+		<ForwardEulerNumericalMethod-2-2>
+			<UseAdaptiveTimestep>0</UseAdaptiveTimestep> 
+			<UseUpdateNodeLocation>0</UseUpdateNodeLocation> 
+			<GhostNodeForcesEnabled>0</GhostNodeForcesEnabled> 
+		</ForwardEulerNumericalMethod-2-2>
+	</NumericalMethod>
+
+</Chaste>

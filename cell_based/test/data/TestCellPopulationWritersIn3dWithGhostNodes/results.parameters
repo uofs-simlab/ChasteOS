@@ -1,0 +1,11 @@
+		<GhostSpringStiffness>15</GhostSpringStiffness>
+		<UseAreaBasedDampingConstant>0</UseAreaBasedDampingConstant>
+		<AreaBasedDampingConstantParameter>0.1</AreaBasedDampingConstantParameter>
+		<WriteVtkAsPoints>0</WriteVtkAsPoints>
+		<OutputMeshInVtk>0</OutputMeshInVtk>
+		<HasVariableRestLength>0</HasVariableRestLength>
+		<MeinekeDivisionSeparation>0.3</MeinekeDivisionSeparation>
+		<DampingConstantNormal>1</DampingConstantNormal>
+		<DampingConstantMutant>1</DampingConstantMutant>
+		<OutputResultsForChasteVisualizer>1</OutputResultsForChasteVisualizer>
+

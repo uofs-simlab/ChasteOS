@@ -1,0 +1,4 @@
+			<NagaiHondaDeformationEnergyParameter>100</NagaiHondaDeformationEnergyParameter>
+			<NagaiHondaMembraneSurfaceEnergyParameter>10</NagaiHondaMembraneSurfaceEnergyParameter>
+			<NagaiHondaCellCellAdhesionEnergyParameter>0.5</NagaiHondaCellCellAdhesionEnergyParameter>
+			<NagaiHondaCellBoundaryAdhesionEnergyParameter>1</NagaiHondaCellBoundaryAdhesionEnergyParameter>
