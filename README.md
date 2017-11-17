@@ -37,6 +37,7 @@ Give an example
 For example, if you want to run a 3D Bidomain model using Ten-Tusscher cell model and the AKS operator splitting do:
 
 cd projects/3DAKSBidomainTT/test
+
 ./run3DAKSBidomainTT.sh
 
 
