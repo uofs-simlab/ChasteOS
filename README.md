@@ -13,7 +13,6 @@ The list of all necessary dependencies can be found at: https://chaste.cs.ox.ac.
 
 
 
-
 ### Installing
 
 After installing the dependencies, you need to build Chaste.
@@ -23,7 +22,9 @@ Please refer to: https://chaste.cs.ox.ac.uk/trac/wiki/SconsArchive/RunningFirstT
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Navigate to ../projects/NameOfAProblem/test/
+
+Run the executable file
 
 ### Break down into end to end tests
 
@@ -33,18 +34,10 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
+For example, if you want to run a 3D Bidomain model using Ten-Tusscher cell model and the AKS operator splitting do:
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-
-
-
-
+cd projects/3DAKSBidomainTT/test
+./run3DAKSBidomainTT.sh
 
 
 
